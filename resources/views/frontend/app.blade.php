@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
      <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" type="text/css" href="{{ asset('frontend/css/theme-7.css') }}"/>
+    <link id="theme-style" rel="stylesheet" type="text/css" href="/frontend/css/theme-7.css"/>
     <!-- FontAwesome JS-->
-    <script src="{{ asset('frontend/fontawesome/js/all.min.js') }}"></script>
+    <script src="/frontend/fontawesome/js/all.min.js"></script>
     @yield('styles')
 </head>
 <body>
@@ -20,9 +20,9 @@
     @include('frontend.partials.footer')
     </div><!--//main-wrapper-->
      <!-- Javascript -->  
-     <script src="{{ asset('frontend/plugins/jquery-3.4.1.min.js') }}"></script>
-    <script src="{{ asset('frontend/plugins/popper.min.js') }}"></script>
-    <script src="{{ asset('frontend/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+     <script src="/frontend/plugins/jquery-3.4.1.min.js"></script>
+    <script src="/frontend/plugins/popper.min.js"></script>
+    <script src="/frontend/plugins/bootstrap/js/bootstrap.min.js"></script>
     @stack('scripts')
 </body>
 </html>
