@@ -1,5 +1,5 @@
 <header class="header text-center">	    
-    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Emma's Blog</a></h1>
+    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html" class="gudea-font-blog-name gudea-font-weight">Emma's Blog</a></h1>
     
     <nav class="navbar navbar-expand-lg navbar-dark" >
        
@@ -11,7 +11,7 @@
             <div class="profile-section pt-3 pt-lg-0">
                 <img class="profile-image mb-3 rounded-circle mx-auto" src="{{asset('frontend/images/passport.png')}}" alt="image" >			
                 
-                <div class="bio mb-3">Hi, my name is Emmanuel Siborurema. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+            <div class="bio mb-3 gudea-font gudea-font-weight">Emmanuel Siborurema is self-directed and motivated software engineer experienced working effectively in dynamic environments.<br><a href="{{route('about')}}">Find out more about me</a></div><!--//bio-->
                 <ul class="social-list list-inline py-3 mx-auto">
                     <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
@@ -22,15 +22,15 @@
                 <hr> 
             </div><!--//profile-section-->
             
-            <ul class="navbar-nav flex-column text-left">
+            <ul class="navbar-nav flex-column text-left gudea-font-blog-name gudea-font-weight">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{route('index')}}"><i class="fas fa-home fa-fw mr-2"></i>Blog Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+                <a class="nav-link" href="{{route('about')}}"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
                 </li>
             </ul>
             

@@ -8,6 +8,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
      <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" type="text/css" href="/frontend/css/theme-7.css"/>
+    <link  rel="stylesheet" type="text/css" href="/frontend/css/styles.css"/>
+    <link id="theme-style" rel="stylesheet" href="/frontend/css/pillar-1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gudea&display=swap" rel="stylesheet">
     <!-- FontAwesome JS-->
     <script src="/frontend/fontawesome/js/all.min.js"></script>
     @yield('styles')

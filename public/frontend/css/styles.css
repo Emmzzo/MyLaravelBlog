@@ -1,0 +1,20 @@
+.gudea-font-blog-name{
+    font-size: 15px;
+    line-height:32px;
+}
+.gudea-font-color{
+    color: #303030;
+    font-size: 15px;
+    line-height:32px;
+
+}
+
+.gudea-font-social{
+    font-size: 13px;
+    line-height:25px;
+}
+.gudea-font-weight{
+    font-style: normal;
+    font-weight: 400;
+    font-family:Gudea, Tahoma, Arial;
+}

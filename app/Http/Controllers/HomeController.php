@@ -21,4 +21,9 @@ class HomeController extends Controller
     {
         return view('blog.dashboard.index');
     }
+
+    public function about()
+    {
+        return view('blog.dashboard.about');
+    }
 }
