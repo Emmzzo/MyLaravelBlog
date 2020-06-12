@@ -18,3 +18,8 @@
     font-weight: 400;
     font-family:Gudea, Tahoma, Arial;
 }
+#footer{
+position: fixed;
+bottom: 0%;
+width: 100%;
+}
