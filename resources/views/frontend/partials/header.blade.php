@@ -34,7 +34,7 @@
                 </li>
             </ul>
             
-            <div class="my-2 my-md-3">
+            <div class="my-2 my-md-3 gudea-font-weight">
                 <a class="btn btn-primary" href="#" target="_blank">Get in Touch</a>
             </div>
         </div>
