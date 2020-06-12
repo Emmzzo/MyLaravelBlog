@@ -9,7 +9,7 @@
 
         <div id="navigation" class="collapse navbar-collapse flex-column">
             <div class="profile-section pt-3 pt-lg-0">
-                <img class="profile-image mb-3 rounded-circle mx-auto" src="{{asset('frontend/images/emma.jpg')}}" alt="image" >			
+                <img class="profile-image mb-3 rounded-circle mx-auto" src="{{asset('frontend/images/passport.png')}}" alt="image" >			
                 
             <div class="bio mb-3 gudea-font gudea-font-weight">Emmanuel Siborurema is self-directed and motivated software engineer experienced working effectively in dynamic environments.<br><a href="{{route('about')}}">Find out more about me</a></div><!--//bio-->
                 <ul class="social-list list-inline py-3 mx-auto">

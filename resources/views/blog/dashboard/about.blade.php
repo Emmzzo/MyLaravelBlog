@@ -5,7 +5,7 @@
     <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
         <header class="resume-header pt-4 pt-md-0">
             <div class="media flex-column flex-md-row">
-                <img class="mr-3 img-fluid picture mx-auto" src="{{asset('frontend/images/emma.jpg')}}" alt="" style="max-height: 220px;">
+                <img class="mr-3 img-fluid picture mx-auto" src="{{asset('frontend/images/passport.png')}}" alt="" style="max-height: 220px;">
                 <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
                     <div class="gudea-font-blog-name gudea-font-weight">
                         <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Emmanuel.S</h1>
