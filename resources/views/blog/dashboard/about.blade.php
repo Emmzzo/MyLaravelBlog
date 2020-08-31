@@ -179,7 +179,13 @@
                                         </div>
                                     </li>
                                     <li class="mb-2">
-                                        <div class="resume-skill-name">WordPress</div>
+                                        <div class="resume-skill-name">CMS:WordPress</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">CMS:Drupal</div>
                                         <div class="progress resume-progress">
                                             <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
